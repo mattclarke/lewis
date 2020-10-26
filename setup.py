@@ -51,7 +51,7 @@ setup(
         'Programming Language :: Python :: 3.5',
     ],
     keywords='hardware simulation controls',
-    packages=find_packages(where='src'),
+    packages=find_packages(where='lewis'),
     package_dir={'': 'src'},
 
     install_requires=['six', 'pyzmq', 'json-rpc', 'semantic_version',
